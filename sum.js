@@ -1,4 +1,7 @@
+const helper = require("./helper");
+
 const sum = (a, b) => {
+  helper();
   return a + b;
 };
 
