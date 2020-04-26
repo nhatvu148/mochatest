@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "testmocha": "mocha || true",
-    "testjest": "jest --coverage"
+    "mocha": "mocha || true",
+    "jest": "jest --coverage",
+    "testwatch": "jest --coverage --watchAll"
   },
   "author": "Nhat Vu",
   "license": "ISC",
